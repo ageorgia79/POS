@@ -18,7 +18,7 @@ body {
     width: 65%;
     height: 100px;
     h1 {
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Audiowide', cursive;
         color: rgb(91, 153, 229);
         font-size: 100px;
         margin: 0 auto;
@@ -48,13 +48,16 @@ body {
         font-weight: bolder;
         position: relative;
         margin-left: 10px;
+        line-height: 12px;
+        bottom: 14px;
+        font-weight: bolder;
     }
 }
 
 .itemizer {
     margin-top: 30px;
     margin-left: 30px;
-    height: 300px;
+    height: 360px;
     width: 350px;
     background-color: rgba(255, 255, 255, 0.75);
     overflow: scroll;
@@ -146,7 +149,14 @@ body {
     bottom: 100px;
 }
 .printoptions {
+    position: relative;
 
+
+}
+
+.ccoptions {
+    position: relative;
+    bottom: 24px;
 }
 
 
